@@ -4,19 +4,13 @@ import com.taller.productos.modelo.Producto;
 
 import java.math.BigDecimal;
 
-/**
- * Valida los datos de un producto antes de enviarlos a la base de datos.
- */
+/* Validacion de datos antes de enviarlos a la base de datos*/
 public final class Validador {
 
     private Validador() {
     }
 
-    /**
-     * Convierte los textos del formulario en un Producto válido.
-     *
-     * @throws ValidacionException si algún dato es vacío o incorrecto
-     */
+    /* Convierte los textos del formulario en un Producto válido y tambien se usaron los @throws ValidacionException por si algún dato es vacio o incorrecto*/
     public static Producto construirProducto(String codigo, String nombre, String descripcion,
                                              String precioTxt, String cantidadTxt) throws ValidacionException {
         codigo = codigo == null ? "" : codigo.trim();
