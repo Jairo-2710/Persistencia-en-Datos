@@ -23,9 +23,8 @@ import java.awt.Insets;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * Ventana principal (capa de presentación) con formulario, botones CRUD y tabla.
- */
+/*Ventana principal*/
+
 public class ProductoFrame extends JFrame {
 
     private static final long serialVersionUID = 1L;
@@ -70,7 +69,7 @@ public class ProductoFrame extends JFrame {
         refrescarTabla(null);
     }
 
-    // ---------- Construcción de la interfaz ----------
+    // interfaz
 
     private JPanel crearFormulario() {
         JPanel panel = new JPanel(new GridBagLayout());
@@ -136,7 +135,7 @@ public class ProductoFrame extends JFrame {
         return panel;
     }
 
-    // ---------- Operaciones CRUD ----------
+    // CRUD
 
     private void registrar() {
         try {
@@ -217,7 +216,7 @@ public class ProductoFrame extends JFrame {
         }
     }
 
-    // ---------- Utilidades de interfaz ----------
+    // utilidades
 
     private void cargarFilaSeleccionada() {
         int fila = tabla.getSelectedRow();
