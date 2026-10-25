@@ -1,0 +1,7 @@
+out/
+data/
+.vscode/
+*.class
+*.mv.db
+*.trace.db
+*.zip
