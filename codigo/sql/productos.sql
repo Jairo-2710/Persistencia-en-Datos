@@ -1,5 +1,5 @@
--- Definición de la tabla del Sistema de Gestión de Productos (H2).
--- Referencia: la aplicación ejecuta esta sentencia sola al iniciar (ConexionBD.java).
+-- Aca se crea la base de datos por medio de el sistema de gestion H2.
+-- Esto se ejecuta cuando se incia la codigo de ConexionBD.java.
 
 CREATE TABLE IF NOT EXISTS productos (
     codigo      VARCHAR(20)    NOT NULL,
