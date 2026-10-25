@@ -2,9 +2,6 @@ package com.taller.productos.modelo;
 
 import java.math.BigDecimal;
 
-/**
- * Clase de modelo que representa un producto del establecimiento.
- */
 public class Producto {
 
     private String codigo;
