@@ -47,10 +47,7 @@ public final class ConexionBD {
         return new File(datos, "productos").getAbsolutePath();
     }
 
-    /**
-     * Abre una nueva conexión. Quien la solicita es responsable de cerrarla
-     * (se recomienda try-with-resources).
-     */
+    /*Abre una nueva conexión. Quien la solicita es responsable de cerrarla*/
     public static Connection obtenerConexion() throws SQLException {
         try {
             Class.forName("org.h2.Driver");
