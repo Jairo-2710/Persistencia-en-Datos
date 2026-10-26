@@ -9,7 +9,7 @@ Tema de ejemplo: inventario de vinilos de metal y otros generos musicales.
 4. La base de datos se crea sola en la carpeta `data/` la primera vez.
 
 ## Enlace video
-- Video explicativo (inglés): pendiente: pegar enlace de YouTube
+- Video explicativo (inglés): https://youtu.be/xa4sORpHqjk
 
 ## 3. Requerimientos técnicos
 Para el desarrollo se recomienda utilizar las siguientes herramientas:
